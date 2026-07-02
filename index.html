@@ -67,6 +67,75 @@ font-size:1.35rem;
 font-weight:700;
 color:#222;
 }
+
+@media (max-width:768px){
+
+    body{
+        overflow:auto;
+    }
+
+    .wrap{
+        align-items:flex-start;
+        padding:30px 0 50px;
+    }
+
+    .panel{
+        padding:28px;
+        max-width:100%;
+    }
+
+    h1{
+        font-size:clamp(2.7rem,12vw,4rem);
+        line-height:.95;
+    }
+
+    .subtitle{
+        font-size:.55em;
+    }
+
+    .tag{
+        font-size:1.15rem;
+    }
+
+    p{
+        font-size:.95rem;
+        line-height:1.6;
+    }
+
+    .meta{
+        flex-direction:column;
+        gap:18px;
+    }
+
+    .buttons{
+        flex-direction:column;
+        width:100%;
+    }
+
+    .buttons a,
+    .buttons button{
+        width:100%;
+        box-sizing:border-box;
+    }
+
+    .author{
+        text-align:center;
+    }
+
+    footer{
+        position:relative;
+    }
+
+    .card{
+        width:95%;
+        padding:24px;
+    }
+
+}
+
+
+
+
 </style>
 </head>
 <body>
@@ -138,6 +207,7 @@ color:#222;
 
 =======
 >>>>>>> 03f10b4bc8957e73336617bf19f2570f6c567274
+
 
 
 
