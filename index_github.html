@@ -8,17 +8,17 @@
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&amp;family=Inter:wght@300;400;600&amp;display=swap" rel="stylesheet"/>
 <style>
-.subtitle{font-size:.65em;display:block;text-align:center;line-height:1.05;margin-top:-6px;}
+.subtitle{font-size:.65em;display:inline;line-height:1.05;}
 
 html,body{height:100%;margin:0}
 body{font-family:Inter,sans-serif;background:#ece4d5;color:#222;overflow:hidden}
 .bg,.veil{position:fixed;inset:0}
 .bg{background:url('monk_background.jpg') center/cover no-repeat}
 .veil{background:linear-gradient(90deg,rgba(236,228,213,.98),rgba(236,228,213,.90) 35%,rgba(236,228,213,.25) 65%,rgba(236,228,213,.08))}
-.wrap{position:relative;z-index:2;min-height:100vh;display:flex;align-items:center;padding:0}
-.panel{padding:6vw 4vw 6vw 8vw;max-width:760px}
+.wrap{position:relative;z-index:2;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:0}
+.panel{padding:6vw;max-width:900px;width:100%;margin:0 auto}
 .logo{letter-spacing:5px;color:#8a6b2c;font-size:.95rem;font-weight:600}
-h1{font-family:"Cormorant Garamond",serif;font-size:clamp(3.5rem,6vw,6rem);line-height:.9;margin:.3em 0}
+h1{font-family:"Cormorant Garamond",serif;font-size:clamp(3rem,5vw,5rem);line-height:.9;margin:.3em 0}
 .tag{font-family:"Cormorant Garamond",serif;font-size:1.5rem;color:#483b21;font-style:italic;white-space:nowrap;width:max-content;max-width:none;margin:12px auto 24px}
 p{max-width:34rem;line-height:1.8}
 .buttons{margin-top:2rem;display:flex;justify-content:center;gap:16px;flex-wrap:wrap}
@@ -198,7 +198,7 @@ color:#222;
 <div class="wrap">
 <div class="panel">
 
-<h1>Thelonious Monk<br><span class="subtitle">Tributes Discography</span></h1>
+<h1>Thelonious Monk <span class="subtitle">Tributes Discography</span></h1>
 <div class="tag" style="text-align:center;margin-top:12px;">A comprehensive discography of tribute recordings</div>
 
 <p style="text-align:justify; max-width:700px; margin:0 auto;">
@@ -236,24 +236,25 @@ color:#222;
 <div class="card">
 <button class="secondary close" onclick="document.getElementById('modal').style.display='none'">Close</button>
 <h2>About the Project</h2>
-<p style="text-align:justify;line-height:1.8">This project brings together recordings released as tributes to the music of Thelonious Monk. It is the result of an ongoing and systematic search across the web. The collection continues to grow as new recordings are identified. The sole criterion for inclusion is that at least 40% of the recorded repertoire consists of compositions by Thelonious Monk, with only a few carefully considered exceptions. Its aim is to provide a documentary resource for collectors and jazz enthusiasts interested in the recorded legacy inspired by Monk's music. Any contributions, corrections or new references are always welcome and will help keep this project alive and true to its purpose.</p>
+<p style="text-align:justify;line-height:1.8">This project brings together and documents recordings released as tributes to the music of Thelonious Monk. It is the result of an ongoing and systematic search across the web. The collection is continuously expanding as new recordings are identified. The sole criterion for inclusion is that at least 40% of the recorded repertoire consists of compositions by Thelonious Monk, regardless of format (LP, CD or digital release). The aim is to provide a reliable documentary resource for researchers, collectors and jazz enthusiasts interested in the recorded legacy inspired by Monk's music.</p>
+<p style="text-align:justify;line-height:1.8">Compiled and curated with rigor and passion, this catalogue is offered as a living archive, a work in progress that aspires to be as comprehensive and accurate as possible. Any contributions, corrections or new references are welcome and will help keep this project alive and true to its purpose.</p>
 <hr style="border:none;border-top:1px solid #c9b083;margin:28px 0">
 <h3 style="margin:0 0 10px;font-family:Inter,sans-serif">✉ Contact</h3>
 <p>For contributions, corrections, newly discovered recordings or any other information related to this discography, please contact:</p>
 
 
-<p style="text-align:center; margin-top:8px;">
+<p style="text-align:left; margin-top:8px;">
     <a href="mailto:gustavosolermoreno@gmail.com"
        style="color:#8a6b2c;font-weight:600;text-decoration:none;display:inline-block;">
         gustavosolermoreno@gmail.com
     </a>
 </p>
 
+<p><em>Every verified contribution that meets the catalogue criteria is greatly appreciated.</em></p>
 </div>
 </div>
 
 </body></html>
-
 
 
 
